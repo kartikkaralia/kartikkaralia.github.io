@@ -5,6 +5,19 @@ body {
     color: #fff;
 }
 
+/* Basic CSS to center the loading GIF */
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+/* Initially hide the content */
+#content {
+  display: none;
+}
+
 /*Common*/
 .color-cod {
     color: #6A89A7;
