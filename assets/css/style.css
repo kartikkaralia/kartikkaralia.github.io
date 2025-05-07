@@ -3,6 +3,9 @@ body {
     font-family: 'Lora', sans-serif;
     background-color: #28282B;
     color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 /*Common*/
@@ -11,6 +14,14 @@ body {
 }
 .color-orig {
     color: #fff;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: auto; /* Scrollbars appear only if content overflows */
 }
 
 /*Footer section*/
