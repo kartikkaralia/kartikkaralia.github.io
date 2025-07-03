@@ -1,79 +1,132 @@
-html,
 body {
-    font-family: 'Lora', sans-serif;
-    background-color: #28282B;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    background: #f0f0f0;
+    color: #333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
-/*Common*/
-.color-cod {
-    color: #6A89A7;
-}
-.color-orig {
-    color: #fff;
-}
-.center-container {
+/* Navbar */
+.navbar-custom {
+    background: #ffffffcc;
+    border-radius: 50px;
+    padding: 10px 20px;
+    max-width: 400px;
+    margin: 20px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    overflow: auto; /* Scrollbars appear only if content overflows */
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/*Footer section*/
+/* Hero Card */
+.hero-card {
+    background: #ffffffcc; /* translucent white */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.role {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.info {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Icons */
+.bs-icon-btn {
+    background: #e0e0e0;
+    color: #333;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 2% 3% 2% 3%;
+}
+
+.bs-icon-btn:hover {
+    background: #d5d5d5;
+}
+
+.bs-icon {
+    color: #333;
+    margin: 5px;
+    border-radius: 20%;
+    font-size: 1.2rem;
+    padding: 1% 3% 1% 3%;
+}
+
+.bs-icon:hover {
+    background: #d5d5d5;
+    padding: 1% 3% 1% 3%;
+}
+
+/* Portfolio Card */
+.portfolio-card {
+    background: #ffffffcc; /* translucent white */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.portfolio-icon {
+    font-size: 2.2em;
+    text-align: right;
+    padding-right: 3%;
+    margin-bottom: 1%;
+}
+
+.portfolio-icon-link {
+    color:#444;
+}
+
+.portfolio-icon-link:hover {
+    color: #666;
+}
+
+.portfolio-name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.portfolio-name-ext {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.portfolio-details {
+    margin-top: 10px;
+    color: #555;
+    text-align: justify;
+}
+
+.portfolio-skills {
+    background: #e0e0e0;
+    color: #333;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    padding: 1% 2%;
+    margin-right: 1%;
+}
+
+.portfolio-skills:hover {
+    background: #d5d5d5;
+}
+
+/* page footer */
 .footer {
-    position: fixed;
-    bottom: 0;
-}
-
-/*Links*/
-.link-st {
-    color: #fff;
-    text-decoration: none;
-}
-.link-st:hover {
-    color: #6A89A7;
-    text-decoration: none;
-}
-.link-btn {
-    color: #fff;
-    text-decoration: none;
-}
-.link-btn:hover {
-    color: #28282B;
-    text-decoration: none;
-}
-
-/*Introduction section*/
-.intro-text {
-    color: #6A89A7;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-}
-.intro-name {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: system-ui;
-}
-.intro-ext {
-    font-size: 30px;
-    font-family: system-ui;
-}
-
-/*Cards*/
-.cards-over {
-    background-color: #2f2f31;
-    font-family: calibri;
-}
-.cards-heading {
-    font-size: 25px;
-    font-weight: bold;
-}
-.cards-skills {
-    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: #333;
+    text-align: center;
 }
